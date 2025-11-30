@@ -2,6 +2,10 @@
 
 Gemini File Search APIを使用したWikipedia記事検索RAGシステムです。
 
+詳細について以下のリンクをごらんください。
+
+※このドキュメントはLLMによって生成しています。
+
 ## 特徴
 
 - ✅ **簡単セットアップ**: ベクトルDBの管理不要
@@ -32,7 +36,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # プロジェクトのセットアップ
 uv venv
 source .venv/bin/activate  # WSL/Linux/Mac
-# または .venv\Scripts\activate  # Windows
 
 # 依存パッケージのインストール
 uv pip install google-genai python-dotenv tqdm
@@ -176,12 +179,8 @@ File Search APIはインデックス作成時に課金されます。コスト�
 
 - [Gemini File Search 公式ブログ](https://blog.google/technology/developers/file-search-gemini-api/)
 - [File Search API ドキュメント](https://ai.google.dev/gemini-api/docs/file-search?hl=ja)
-- [従来版RAGシステム](https://github.com/ueponx/wikipedia-rag-system)
+- [ChromaDBを使用した従来版RAGシステム（比較対象）](https://github.com/ueponx/wikipedia-rag-system)
 
 ## ライセンス
 
 MIT License
-
-## 作者
-
-ueponx
