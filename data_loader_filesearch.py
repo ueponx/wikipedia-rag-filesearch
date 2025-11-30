@@ -79,7 +79,7 @@ def get_or_create_store(client, store_name=None):
         )
         print(f"Store作成完了: {store.name}")
         print("\n" + "=" * 70)
-        print("💡 コスト削減のため、.envファイルに以下を追加してください:")
+        print("コスト削減のため、.envファイルに以下を追加してください:")
         print(f"STORE_NAME={store.name}")
         print("=" * 70 + "\n")
         return store
