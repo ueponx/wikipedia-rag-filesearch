@@ -4,6 +4,8 @@ Gemini File Search APIを使用したWikipedia記事検索RAGシステムです�
 
 詳細について以下のリンクをごらんください。
 
+https://github.com/ueponx/wikipedia-rag-filesearch
+
 ※このドキュメントはLLMによって生成しています。
 
 ## 特徴
